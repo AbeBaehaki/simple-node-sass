@@ -1,0 +1,22 @@
+{
+  "name": "simple-node-sass",
+  "version": "1.0.0",
+  "description": "A simple Sass setup with node-sass",
+  "scripts": {
+    "build-scss": "node-sass -r scss/ -o css/",
+    "watch-scss": "node-sass -w -r scss/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbeBaehaki/simple-node-sass.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbeBaehaki/simple-node-sass/issues"
+  },
+  "homepage": "https://github.com/AbeBaehaki/simple-node-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
